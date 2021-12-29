@@ -205,7 +205,7 @@ body {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 37.5rem) {
+@media screen and (max-width: 500rem) {
   .footer {
     display: none;
   }
