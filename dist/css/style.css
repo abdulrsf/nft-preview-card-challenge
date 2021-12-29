@@ -85,7 +85,7 @@ body {
   height: 50px;
 }
 
-.nft-card-body .nft-card-info h4 {
+.nft-card-body .nft-card-info h1 {
   color: white;
   font-size: 1.3125rem;
 }
@@ -160,7 +160,7 @@ body {
   margin-bottom: 0.875rem;
 }
 
-.nft-card-body:hover .nft-card-info h4 {
+.nft-card-body:hover .nft-card-info h1 {
   color: #00fff7;
 }
 
