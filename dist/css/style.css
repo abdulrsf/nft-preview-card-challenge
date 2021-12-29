@@ -1,0 +1,213 @@
+* {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  background-color: #0d192b;
+  margin: 0rem;
+  padding: 0rem;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nft-card-component {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.nft-card-body {
+  background-color: #14253d;
+  width: 20rem;
+  height: 37.1875rem;
+  border-radius: 0.9375rem;
+  padding: 1.5rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 0px 96px -63px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 96px -63px rgba(0, 0, 0, 0.75);
+}
+
+.nft-card-body .equilibrium-img {
+  width: 20.3125rem;
+  height: 20.3125rem;
+  border-radius: 10px;
+  -webkit-clip-path: none;
+          clip-path: none;
+}
+
+.nft-card-body .avatar-img {
+  width: 2.0625rem;
+  height: 2.0625rem;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.nft-card-body .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nft-card-body .image-view {
+  position: absolute;
+  background: #00fff7;
+  width: 20.3125rem;
+  height: 20.3125rem;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+  z-index: 999;
+}
+
+.nft-card-body .eye {
+  height: 50px;
+}
+
+.nft-card-body .nft-card-info h4 {
+  color: white;
+  font-size: 1.3125rem;
+}
+
+.nft-card-body .nft-card-info p {
+  color: #8bacda;
+  margin-top: -0.383rem;
+}
+
+.nft-card-body .nft-card-eth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.nft-card-body .nft-card-eth .nft-card-eth-price {
+  color: #00fff7;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+}
+
+.nft-card-body .nft-card-eth .nft-card-eth-price span {
+  padding-left: 0.500rem;
+}
+
+.nft-card-body .nft-card-eth .nft-card-eth-time {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nft-card-body .nft-card-eth .nft-card-eth-time span {
+  padding-left: 0.500rem;
+}
+
+.nft-card-body .nft-card-by {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+  color: #8bacda;
+}
+
+.nft-card-body .nft-card-by a {
+  color: white;
+  text-decoration: none;
+}
+
+.nft-card-body .nft-card-by span {
+  padding-left: 1rem;
+}
+
+.nft-card-body .seperator {
+  background-color: #2f415b;
+  width: 100%;
+  height: 0.3px;
+  margin-top: 1.3125rem;
+  margin-bottom: 0.875rem;
+}
+
+.nft-card-body:hover .nft-card-info h4 {
+  color: #00fff7;
+}
+
+.nft-card-body:hover .nft-card-by a {
+  color: #00fff7;
+}
+
+.nft-card-body:hover .image-view {
+  background-color: rgba(0, 255, 247, 0.5);
+  opacity: 1;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #14253d;
+  width: 34.375rem;
+  padding: 0.625rem;
+  border-radius: 0rem 10px 0rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer p {
+  color: white;
+}
+
+.footer p a {
+  text-decoration: none;
+  color: #8bacda;
+}
+
+.footer p a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 106.25rem) {
+  .footer {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
